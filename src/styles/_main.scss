@@ -1,0 +1,292 @@
+$font-family: var(--font-genos);
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+    background-image: url(../images/BG.png);
+}
+
+
+.main-text{
+    margin: 80px;
+}
+
+.slogan{
+    font-size: 140px;
+    font-family: $font-family;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255);
+    width: 700px;
+    height: 250px;
+    margin: 0 0 0 0;
+}
+.slogan-text{
+    margin-top: 100px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    width: 334px;
+    height: 49px;
+}
+
+.vehicles{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px 40px; /* Размер кнопки */
+    background-color: #00A8A8; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста на кнопке */
+    border: none; /* Убрать границу кнопки */
+    border-radius: 10px; /* Закруглить углы кнопки */
+    cursor: pointer; /* Изменить курсор при наведении */
+    align-items: center;
+    p{
+        font-size: 30px;
+        align-content: center;
+    }
+    
+}
+
+.electron{
+    position: absolute ;
+    right: 0;
+    top: 0vh
+}
+.car{
+    position: absolute;
+    right: 0vh;
+    top:200px
+}   
+
+.block-2{
+    background-color: #fff;
+    padding: 40px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .secondary {
+        font-size: 55px;
+        font-family: $font-family;
+        font-weight: 700;
+        color: rgba(22, 30, 33, 1);
+        width: 400px;
+        height: 61px;
+        text-align: center;
+    }
+
+    .paragraph {
+        font-size: 20px;
+        font-family: $font-family;
+        font-weight: 400;
+        color: rgba(22, 30, 33, 1);
+        width: 400px;
+        height: 28px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between; 
+        box-sizing: content-box;
+        
+      .block {
+        box-sizing: content-box;
+        width: 200px; /* Ширина каждого блока */
+        background-color: #ffffff;
+        padding: 0;
+        text-align: left;
+        margin-left: 40px;
+        line-height: 25px;
+        font-size: 20px;
+      }
+    }
+}
+
+.about{
+    display: flex;
+    
+    padding: 80px;
+    background-color: #ffffff;
+    align-items: center;
+
+    .about-square{
+        margin-left: 80px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        .square{
+            width: 300px;
+            height: 150px;
+            margin: 10px;
+            padding: 15px; /* Добавляем внутренние отступы */
+            font-family: $font-family;
+            font-size: 20px;
+            line-height: 30px;
+        }   
+    }
+}
+
+.numbers{
+    padding: 80px;
+    
+
+    h2{
+        display: grid;
+        place-items: center;
+        font-size: 42px;
+        font-family: $font-family;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 1);
+        width: fit-content;
+        height: 46px;
+        text-transform: uppercase;
+        
+    }
+    .text-3{
+        font-size: 25px;
+        margin-top: 40px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        box-sizing: content-box;
+        margin-top: 40px;
+        
+      .block {
+        text-align: center;
+        box-sizing: content-box;
+        width: 350px; 
+        height: 130px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 0 20px;
+      }
+    }
+}
+.popular{
+    background-color: #fff;
+    padding: 80px;
+    
+    letter-spacing: 1px;
+    .container {
+        display: flex;
+        justify-content: center;
+        box-sizing: content-box;
+        margin-top: 40px;
+        
+      .block {
+        text-align: center;
+        box-sizing: content-box;
+        border: 2px solid rgba(33, 39, 42, 1);;
+        width: 350px; 
+        height: 400px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 0 20px;
+        
+        button{
+            display: flex;
+            padding: 10px 20px; /* Размер кнопки */
+            background-color: #ffffff;
+            color: #00A8A8; /* Цвет текста на кнопке */
+            border:none;
+            
+            cursor: pointer; /* Изменить курсор при наведении */
+            
+            p{
+                font-size: 20px;
+                align-content: center;
+            }
+            
+        }
+      }
+    }
+    .shop-all{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        padding: 10px 20px; /* Размер кнопки */
+        background-color: #00A8A8;
+        color: #ffffff; /* Цвет текста на кнопке */
+        border: 2px solid #00A8A8;;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+}
+.app{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 80px 80px 0 80px;
+
+    .Phone{
+        padding: 0 80px 0 80px;
+    }
+
+    section{
+        width: 650px;
+        padding: 20px;
+        h1{
+            font-family: $font-family;
+            font-size: 70px;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-family: $font-family;
+            font-size: 20px;
+            line-height: 35px;
+            margin-top: 40px;
+        }
+    }
+
+    .ios, .android {
+        margin: 50px 20px 0 20px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    .ios{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        .AppStore{
+            width: auto;
+            height: 50px;
+        }
+        
+    }
+    .android{
+        .Googleplay{
+            width: auto;
+            height: 50px;
+        }
+    }
+}
+.footer{
+    display: flex;
+    color: #fff;
+    padding: 40px 80px;
+    align-items: center;
+    justify-content: space-between;
+    
+    .list, .icons{
+        display: flex;
+        li{
+            margin: 0 15px;
+            list-style: none;
+        }
+    }
+
+}
